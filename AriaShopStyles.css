@@ -1,0 +1,49 @@
+body{
+    background-color:#FFFFFF;
+}
+#searchinput::after{
+  content: "fa fa-search";
+}
+#Login::after{
+  content:' ورود';
+  color:white;
+}
+#navigationbar{
+  font-family:IranSans;
+  object-fit: cover;
+}
+#socialmedia{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content:space-evenly;
+}
+.list{
+  margin-right:5%;
+}
+h1{
+  font-family: IranSans;
+} 
+@font-face {
+  font-family: 'IranSans';
+  src: url("assets/font/IRANSansWeb\(FaNum\)_Light.woff") format("woff");
+} 
+@media only screen and (max-width: 500px) {
+  #navigationbar{
+   display:flex;
+   flex-wrap: nowrap;
+   flex-direction: column;
+   justify-content: space-evenly;
+ } 
+   .navitem{
+     position:relative;
+     text-align: center;
+     margin-bottom:30px;
+     border-bottom:2px dotted white;
+     white-space: nowrap;
+   }
+  }
+  .carousel-inner > .item > img {
+    width:940px;
+    height:500.47px;
+  }
