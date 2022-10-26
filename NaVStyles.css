@@ -1,0 +1,44 @@
+nav{
+    width: 150%;
+}
+.navbar{
+    position:relative;
+    display:flex;
+    margin-left:45%;
+    width:50%;
+    /* height:44px; */
+    padding-top:10px;
+}
+.navitem{
+    position:relative;
+    color:white;
+    list-style-type: none;
+    margin-left:20px;
+    padding-right:0;
+    padding-left: 0;
+    font-family:'IranSans';
+    font-weight:bolder;
+    font-style:normal;
+    font-size:14px;
+}
+.navitem::after{
+  content: '';
+  position:absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffff00;
+  transform-origin: bottom right;
+  transform: scaleX(0);
+}
+.navitem:hover::after{
+    transform:scaleX(1);
+}
+/* li.navitem:hover{
+   background-color:blue;
+   opacity: var(--transparent);
+} */
+:root{
+    --transparent:100%;
+}
