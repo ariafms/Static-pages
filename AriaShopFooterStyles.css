@@ -1,0 +1,39 @@
+body{
+    font-family:IranSans;
+    direction: rtl;
+}
+div.d-flex > div {
+    margin-left:5%;
+    font-family:IranSans;
+    font-size: 14px;
+    font-weight: bold;
+}
+div.list > div {
+    white-space: nowrap;
+}
+svg.bi.bi-instagram {
+    width: 30px;
+    height:30px
+}
+div > svg {
+    margin-left:30px;
+}
+@font-face {
+    font-family: 'IranSans';
+    src: url("assets/font/IRANSansWeb\(FaNum\)_Light.woff") format("woff");
+  }
+@media only screen and (max-width: 942px) {
+    #socialmedia{
+     display:flex;
+     flex-wrap: nowrap;
+     flex-direction: column;
+     justify-content: space-evenly;
+   } 
+}
+@media only screen and (max-width: 690px) {
+}
+#footer{
+    color:white;
+    padding-top:100px;
+}
+
